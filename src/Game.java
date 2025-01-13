@@ -20,7 +20,7 @@ public class Game {
         while (attempts < maxAttempts) {
             System.out.print("Enter your guess: ");
             int guess = scanner.nextInt();
-            //attempts++;
+            attempts++;
 
             if (guess < secretNumber) {
                 System.out.println("Too low!");
